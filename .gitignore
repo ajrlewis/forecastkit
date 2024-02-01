@@ -1,0 +1,8 @@
+# Python
+*.env
+*.pyc
+__pycache__/
+venv
+
+# Mac
+.DS_Store

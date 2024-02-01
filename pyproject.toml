@@ -1,0 +1,17 @@
+[project]
+name = "forecastkit"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "ajrlewis", email = "hello@ajrlewis.com" }
+]
+dependencies = [
+    "numpy==1.26.3",
+    "statsmodels==0.14.1"
+]
+license = "MIT"
+
+[tool.setuptools]
+packages = ["forecastkit"]
