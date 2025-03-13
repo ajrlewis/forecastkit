@@ -1,0 +1,4 @@
+prophet==1.1.6
+statsmodels==0.14.4
+matplotlib==3.9.4
+logger==1.4
