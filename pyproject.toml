@@ -1,17 +1,22 @@
 [project]
 name = "forecastkit"
-version = "0.1.0"
-description = ""
+version = "0.2.0"
+description = "A collection of forecasting tools."
 readme = "README.md"
 requires-python = ">=3.9"
 authors = [
     { name = "ajrlewis", email = "hello@ajrlewis.com" }
 ]
 dependencies = [
+    "loguru>=0.7.2",
+    "prophet==1.1.6"
     "numpy==1.26.3",
-    "statsmodels==0.14.1"
+    "statsmodels==0.14.4",
+    "matplotlib==3.9.4",
 ]
-license = "MIT"
 
-[tool.setuptools]
-packages = ["forecastkit"]
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["*.*"]

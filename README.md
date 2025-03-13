@@ -1,7 +1,5 @@
 # forecastkit
 
-![My Package Logo](images/logo.png)
-
 ## Installation
 
 Install via pip:
